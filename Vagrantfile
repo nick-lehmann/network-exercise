@@ -67,5 +67,6 @@ Vagrant.configure("2") do |config|
     apt-get update
     apt-get install -y python3-pip iproute2
     pip3 install scapy
+    wget -O - https://gist.githubusercontent.com/SerhatTeker/7d0fc99d27e9bf1d75b4435a38a89fe9/raw/install-python | bash
   SHELL
 end

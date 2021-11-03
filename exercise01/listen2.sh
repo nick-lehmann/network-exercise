@@ -1,0 +1,1 @@
+tcpdump -i lo 'tcp dst port 4242 and tcp[tcpflags] == (tcp-syn|tcp-push)'

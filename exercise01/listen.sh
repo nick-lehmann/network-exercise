@@ -1,1 +1,1 @@
-sudo tcpdump -i lo0 -vv 'udp dst port 2323'
+sudo tcpdump -i lo 'udp dst port 2323'

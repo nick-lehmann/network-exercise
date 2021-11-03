@@ -6,4 +6,4 @@ dport = 2323
 text = "abc"
 
 p = IP(dst=dst)/UDP(dport=dport)/"text"
-send(p, 'lo0')
+send(p, 'lo')
