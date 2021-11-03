@@ -1,0 +1,1 @@
+vagrant snapshot restore base
