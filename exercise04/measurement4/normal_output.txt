@@ -1,0 +1,96 @@
+# Delay: 0ms
+# Paketverlust: 0%
+> iperf3 --client 192.168.1.1 -C bic
+[  4] local 192.168.1.2 port 37244 connected to 192.168.1.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  3.99 GBytes  34.2 Gbits/sec  1145   2.35 MBytes       
+[  4]   1.00-2.00   sec  3.29 GBytes  28.3 Gbits/sec  518    376 KBytes       
+[  4]   2.00-3.00   sec  3.56 GBytes  30.6 Gbits/sec  460    731 KBytes       
+[  4]   3.00-4.00   sec  3.19 GBytes  27.4 Gbits/sec  912    561 KBytes       
+[  4]   4.00-5.00   sec  3.68 GBytes  31.6 Gbits/sec  129    724 KBytes       
+[  4]   5.00-6.00   sec  3.41 GBytes  29.2 Gbits/sec    2   1.08 MBytes       
+[  4]   6.00-7.00   sec  3.19 GBytes  27.5 Gbits/sec  688    530 KBytes       
+[  4]   7.00-8.00   sec  4.40 GBytes  37.8 Gbits/sec   46   1.27 MBytes       
+[  4]   8.00-9.00   sec  4.22 GBytes  36.2 Gbits/sec  216   1.31 MBytes       
+[  4]   9.00-10.00  sec  3.52 GBytes  30.2 Gbits/sec  781   1.01 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  36.5 GBytes  31.3 Gbits/sec  4897             sender
+[  4]   0.00-10.00  sec  36.5 GBytes  31.3 Gbits/sec                  receiver
+
+
+> iperf3 --client 192.168.1.1 -C highspeed
+[  4] local 192.168.1.2 port 37240 connected to 192.168.1.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  3.61 GBytes  31.0 Gbits/sec  502    576 KBytes       
+[  4]   1.00-2.00   sec  2.99 GBytes  25.7 Gbits/sec  895    693 KBytes       
+[  4]   2.00-3.00   sec  3.89 GBytes  33.4 Gbits/sec  719   2.96 MBytes       
+[  4]   3.00-4.00   sec  3.70 GBytes  31.8 Gbits/sec  673   31.6 MBytes       
+[  4]   4.00-5.00   sec  3.49 GBytes  30.0 Gbits/sec  438    482 MBytes       
+[  4]   5.00-6.00   sec  3.49 GBytes  30.0 Gbits/sec  618    385 MBytes       
+[  4]   6.00-7.00   sec  4.67 GBytes  40.1 Gbits/sec    1   -879049728.00 Bytes       
+[  4]   7.00-8.00   sec  3.27 GBytes  28.1 Gbits/sec  612   -99994576.00 Bytes       
+[  4]   8.00-9.00   sec  3.58 GBytes  30.7 Gbits/sec  903   2.87 MBytes       
+[  4]   9.00-10.00  sec  3.67 GBytes  31.5 Gbits/sec  863   11.2 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  36.4 GBytes  31.2 Gbits/sec  6224             sender
+[  4]   0.00-10.00  sec  36.4 GBytes  31.2 Gbits/sec                  receiver
+
+
+> iperf3 --client 192.168.1.1 -C scalable
+[  4] local 192.168.1.2 port 37248 connected to 192.168.1.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  3.43 GBytes  29.4 Gbits/sec  980   99.0 MBytes       
+[  4]   1.00-2.00   sec  3.35 GBytes  28.8 Gbits/sec  454    729 MBytes       
+[  4]   2.00-3.00   sec  3.30 GBytes  28.4 Gbits/sec  710   -2090833144.00 Bytes       
+[  4]   3.00-4.00   sec  4.20 GBytes  36.1 Gbits/sec  163   1.66 GBytes       
+[  4]   4.00-5.00   sec  4.32 GBytes  37.1 Gbits/sec  252   1.26 GBytes       
+[  4]   5.00-6.00   sec  3.09 GBytes  26.5 Gbits/sec  824   -1034619424.00 Bytes       
+[  4]   6.00-7.00   sec  3.79 GBytes  32.5 Gbits/sec  209    451 MBytes       
+[  4]   7.00-8.00   sec  3.46 GBytes  29.7 Gbits/sec  712    107 MBytes       
+[  4]   8.00-9.00   sec  3.12 GBytes  26.8 Gbits/sec  824   -1701531240.00 Bytes       
+[  4]   9.00-10.00  sec  3.13 GBytes  26.9 Gbits/sec  1192   -887020648.00 Bytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  35.2 GBytes  30.2 Gbits/sec  6320             sender
+[  4]   0.00-10.00  sec  35.2 GBytes  30.2 Gbits/sec                  receiver
+
+
+> iperf3 --client 192.168.1.1 -C vegas
+Connecting to host 192.168.1.1, port 5201
+[  4] local 192.168.1.2 port 37254 connected to 192.168.1.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  3.41 GBytes  29.3 Gbits/sec  582    607 KBytes       
+[  4]   1.00-2.00   sec  2.87 GBytes  24.6 Gbits/sec  577    348 KBytes       
+[  4]   2.00-3.00   sec  3.19 GBytes  27.4 Gbits/sec  472    488 KBytes       
+[  4]   3.00-4.00   sec  3.41 GBytes  29.3 Gbits/sec  725    390 KBytes       
+[  4]   4.00-5.00   sec  3.66 GBytes  31.4 Gbits/sec  462    426 KBytes       
+[  4]   5.00-6.00   sec  3.37 GBytes  29.0 Gbits/sec  853    530 KBytes       
+[  4]   6.00-7.00   sec  3.66 GBytes  31.4 Gbits/sec  188    247 KBytes       
+[  4]   7.00-8.00   sec  3.10 GBytes  26.6 Gbits/sec  671    390 KBytes       
+[  4]   8.00-9.00   sec  3.09 GBytes  26.5 Gbits/sec  465    386 KBytes       
+[  4]   9.00-10.00  sec  3.07 GBytes  26.4 Gbits/sec  509    345 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  32.8 GBytes  28.2 Gbits/sec  5504             sender
+[  4]   0.00-10.00  sec  32.8 GBytes  28.2 Gbits/sec                  receiver
+
+
+> iperf3 --client 192.168.1.1 -C yeah
+[  4] local 192.168.1.2 port 37258 connected to 192.168.1.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  3.31 GBytes  28.5 Gbits/sec  224   93.3 KBytes       
+[  4]   1.00-2.00   sec  3.05 GBytes  26.2 Gbits/sec  170    392 KBytes       
+[  4]   2.00-3.00   sec  3.08 GBytes  26.5 Gbits/sec  310   2.14 MBytes       
+[  4]   3.00-4.00   sec  3.56 GBytes  30.5 Gbits/sec  554   36.1 MBytes       
+[  4]   4.00-5.00   sec  3.15 GBytes  27.0 Gbits/sec  881    892 MBytes       
+[  4]   5.00-6.00   sec  3.50 GBytes  30.1 Gbits/sec  683    141 MBytes       
+[  4]   6.00-7.00   sec  3.42 GBytes  29.4 Gbits/sec  390   1.08 GBytes       
+[  4]   7.00-8.00   sec  4.11 GBytes  35.3 Gbits/sec  365   -1002554784.00 Bytes       
+[  4]   8.00-9.00   sec  3.83 GBytes  32.9 Gbits/sec  296   23.1 MBytes       
+[  4]   9.00-10.00  sec  3.47 GBytes  29.7 Gbits/sec  733   1.19 GBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  34.5 GBytes  29.6 Gbits/sec  4606             sender
+[  4]   0.00-10.00  sec  34.5 GBytes  29.6 Gbits/sec                  receiver
