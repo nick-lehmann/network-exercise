@@ -1,0 +1,42 @@
+# Server
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Accepted connection from 192.168.1.2, port 42782
+[  5] local 192.168.1.1 port 5201 connected to 192.168.1.2 port 42784
+[ ID] Interval           Transfer     Bandwidth
+[  5]   0.00-1.00   sec  66.9 MBytes   561 Mbits/sec                  
+[  5]   1.00-2.00   sec  88.3 MBytes   741 Mbits/sec                  
+[  5]   2.00-3.00   sec  76.0 MBytes   637 Mbits/sec                  
+[  5]   3.00-4.00   sec  87.4 MBytes   733 Mbits/sec                  
+[  5]   4.00-5.00   sec  88.4 MBytes   741 Mbits/sec                  
+[  5]   5.00-6.00   sec  84.4 MBytes   708 Mbits/sec                  
+[  5]   6.00-7.00   sec  92.9 MBytes   779 Mbits/sec                  
+[  5]   7.00-8.00   sec  86.3 MBytes   724 Mbits/sec                  
+[  5]   8.00-9.00   sec  85.4 MBytes   717 Mbits/sec                  
+[  5]   9.00-10.00  sec  81.5 MBytes   683 Mbits/sec                  
+[  5]  10.00-10.05  sec   654 KBytes   118 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  5]   0.00-10.05  sec   842 MBytes   703 Mbits/sec    0             sender
+[  5]   0.00-10.05  sec   838 MBytes   700 Mbits/sec                  receiver
+
+
+# Client
+[  4] local 192.168.1.2 port 42784 connected to 192.168.1.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  70.6 MBytes   592 Mbits/sec    0   6.89 MBytes       
+[  4]   1.00-2.00   sec  87.5 MBytes   734 Mbits/sec    0   6.89 MBytes       
+[  4]   2.00-3.00   sec  78.8 MBytes   661 Mbits/sec    0   6.89 MBytes       
+[  4]   3.00-4.00   sec  85.0 MBytes   713 Mbits/sec    0   6.89 MBytes       
+[  4]   4.00-5.00   sec  88.8 MBytes   744 Mbits/sec    0   6.89 MBytes       
+[  4]   5.00-6.00   sec  83.8 MBytes   703 Mbits/sec    0   6.89 MBytes       
+[  4]   6.00-7.00   sec  92.5 MBytes   776 Mbits/sec    0   6.89 MBytes       
+[  4]   7.00-8.00   sec  87.5 MBytes   734 Mbits/sec    0   6.89 MBytes       
+[  4]   8.00-9.00   sec  85.0 MBytes   713 Mbits/sec    0   6.89 MBytes       
+[  4]   9.00-10.00  sec  82.5 MBytes   692 Mbits/sec    0   6.89 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec   842 MBytes   706 Mbits/sec    0             sender
+[  4]   0.00-10.00  sec   838 MBytes   703 Mbits/sec                  receiver
+
