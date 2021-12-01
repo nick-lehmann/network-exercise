@@ -1,0 +1,10 @@
+> dig zdf.de
+
+# Home
+zdf.de.                 229     IN      A       91.197.29.78
+
+# Contabo server
+zdf.de.                 600     IN      A       91.197.29.78
+
+# Belgium
+zdf.de.                 600     IN      A       91.197.29.78
