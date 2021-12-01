@@ -1,10 +1,21 @@
-> dig zdf.de
+> dig www.zdf.de
 
 # Home
-zdf.de.                 229     IN      A       91.197.29.78
-
-# Contabo server
-zdf.de.                 600     IN      A       91.197.29.78
+www.zdf.de.             286     IN      CNAME   ssl.zdf.de.edgekey.net.
+ssl.zdf.de.edgekey.net. 286     IN      CNAME   e8383.e6.akamaiedge.net.
+e8383.e6.akamaiedge.net. 6      IN      A       23.210.98.49
 
 # Belgium
-zdf.de.                 600     IN      A       91.197.29.78
+www.zdf.de.             300     IN      CNAME   ssl.zdf.de.edgekey.net.
+ssl.zdf.de.edgekey.net. 300     IN      CNAME   e8383.e6.akamaiedge.net.
+e8383.e6.akamaiedge.net. 20     IN      A       2.18.230.159
+
+# United Kingdom
+www.zdf.de.             300     IN      CNAME   ssl.zdf.de.edgekey.net.
+ssl.zdf.de.edgekey.net. 300     IN      CNAME   e8383.e6.akamaiedge.net.
+e8383.e6.akamaiedge.net. 20     IN      A       2.18.230.159
+
+# Australia
+www.zdf.de.             300     IN      CNAME   ssl.zdf.de.edgekey.net.
+ssl.zdf.de.edgekey.net. 300     IN      CNAME   e8383.e6.akamaiedge.net.
+e8383.e6.akamaiedge.net. 20     IN      A       104.103.102.243
