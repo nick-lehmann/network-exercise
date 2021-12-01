@@ -4,18 +4,22 @@
 www.zdf.de.             286     IN      CNAME   ssl.zdf.de.edgekey.net.
 ssl.zdf.de.edgekey.net. 286     IN      CNAME   e8383.e6.akamaiedge.net.
 e8383.e6.akamaiedge.net. 6      IN      A       23.210.98.49
+-> Server located in Berlin
 
 # Belgium
 www.zdf.de.             300     IN      CNAME   ssl.zdf.de.edgekey.net.
 ssl.zdf.de.edgekey.net. 300     IN      CNAME   e8383.e6.akamaiedge.net.
 e8383.e6.akamaiedge.net. 20     IN      A       2.18.230.159
+-> Server located in Paris
 
 # United Kingdom
 www.zdf.de.             300     IN      CNAME   ssl.zdf.de.edgekey.net.
 ssl.zdf.de.edgekey.net. 300     IN      CNAME   e8383.e6.akamaiedge.net.
 e8383.e6.akamaiedge.net. 20     IN      A       2.18.230.159
+-> Server located in Paris
 
 # Australia
 www.zdf.de.             300     IN      CNAME   ssl.zdf.de.edgekey.net.
 ssl.zdf.de.edgekey.net. 300     IN      CNAME   e8383.e6.akamaiedge.net.
 e8383.e6.akamaiedge.net. 20     IN      A       104.103.102.243
+-> Server located in Vienna
