@@ -43,12 +43,14 @@ ip netns exec host1 bash -c "
   
   echo 'Setting only veth11 down'
   ip link set dev veth11 down
+  sleep 1
   ping -I bond1 -c 1 192.168.1.2
   echo 'Works only with veth12'
 
   echo 'Setting only veth12 down'
   ip link set dev veth11 up
   ip link set dev veth12 down
+  sleep 1
   ping -I bond1 -c 1 192.168.1.2
   echo 'Works only with veth11'
 "
