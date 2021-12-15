@@ -1,0 +1,25 @@
+# Erstellen   Sie   eine   Zuordnung   zwischen   den   in   der   Vorlesung   erwähnten
+Schutzzielen und den Bedrohungen, die für jedes Schutzziel herausstellt, wodurch
+dieses primär gefährdet wird.
+
+Vertraulichkeit
+- fehlende oder schlechte Verschlüsselung (falsche Konfiguration, veraltete Protokolle)
+- MitM bei fehlender Authentifizierung
+- fehlende Überprüfung von Geschäftspartnern 
+
+
+(Daten)Integrität
+
+
+Zurechenbarkeit
+- fehlendes Logging
+
+
+Kontrollierter Zugang
+- fehlende Permission-Policies / ACLs
+
+
+
+Verfügbarkeit
+- keine Redundanz
+- DDoS
