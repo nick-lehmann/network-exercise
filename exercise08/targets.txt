@@ -3,6 +3,9 @@ Schutzzielen und den Bedrohungen, die für jedes Schutzziel herausstellt, wodurc
 dieses primär gefährdet wird.
 
 Vertraulichkeit
+- Abhören
+- Maskerade
+
 - fehlende oder schlechte Verschlüsselung (falsche Konfiguration, veraltete Protokolle)
 - MitM bei fehlender Authentifizierung
 - fehlende Überprüfung von Geschäftspartnern 
@@ -17,7 +20,6 @@ Zurechenbarkeit
 
 Kontrollierter Zugang
 - fehlende Permission-Policies / ACLs
-
 
 
 Verfügbarkeit

@@ -15,8 +15,11 @@ chain input {
 }
 
 # Nur Pakete an das Netz 192.168.2.0/24 sollen weitergeleitet werden.
-chain forward {
-
-}
+sudo nft chain inet filter forward '{ policy drop ; }'
+sudo nft add rule inet filter forward ip daddr 192.168.2.0/24 accept
 
 # Falls ein ausgehendes ICMP-Paket den Netzwerkstack durchläuft, soll ein Eintrag in einer Log-Datei angelegt werden, der diese Tatsache vermerkt.
+sudo nft add rule inet filter output ip protocol icmp log
+
+# Speichern von NFT Regeln
+store configuration rules in /etc/nftables.conf
